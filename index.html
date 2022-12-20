@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wack A Mole</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main class="main">
+        <h1>Wack A Mole</h1>
+        <div class="level-selection">
+        <label for="difficulty">Select Difficulty Level</label>
+        <select name="difficulty" id="difficulty">
+            <option value="easy" disabled selected>Choose Difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        </div>
+        <div class="buttons">
+        <button class="start">S T A R T</button>
+        <button class="end">E N D</button>
+    </div>
+        <h3>Time: <span class="counter"></span></h3>
+        <h3>Score: <span class="score">0</span></h3>
+    <div class="container">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+    <h3 class="over"></h3>
+</main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

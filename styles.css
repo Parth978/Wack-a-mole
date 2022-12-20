@@ -1,0 +1,77 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.container{
+    height: 450px;
+    width: 450px;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    outline: 1px solid white;
+    background-color: antiquewhite;
+}
+
+.square:hover{
+    cursor: pointer;
+}
+
+.start{
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.start:disabled{
+    background-color: #dddddd;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+.end{
+        padding: 0.5rem;
+        margin: 1rem;
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+}
+
+.end:disabled{
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #dddddd;
+    color: white;
+    border-radius: 10px;
+}
+.mole-img{
+    background-image: url(./pngwing.com.png);
+    background-size: contain;
+}
+
+.level-selection{
+    font-weight: bold;
+    margin: 10px 0;
+}
+.level-selection select{
+    margin: 0 10px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.over{
+    font-size: 30px;
+    color: red;
+}
